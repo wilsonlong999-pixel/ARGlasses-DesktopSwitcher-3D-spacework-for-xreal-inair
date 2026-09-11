@@ -1,0 +1,52 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+inairenv/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime logs, captures and machine-specific diagnostics
+*.log
+*.jsonl
+xreal-debug-*.txt
+inair-debug-*.txt
+inair-capture-*.txt
+hardware_diagnostics*.txt
+imu_capture.json
+
+# Local release archives and historical backups
+*.zip
+*.7z
+*.rar
+*.bak
+*.before_*
+
+# Retired experiments and binaries not used by the current release
+main_onpro_tcp.py
+vd_hotkeys.py
+diagnostic_log.py
+test_diagnostic_log.py
+inair_hid_capture.py
+AirAPI_Windows.dll
+hidapi.dll
+PhoenixHeadTracker.exe
+
+# Internal tuning notes retained locally
+FINAL_README.md
+FLICK_TUNING.md
+INAIR_DEBUG_GUIDE.md
+INAIR_REARM_FIX.md
+INAIR_SETUP.md
+INAIR_SWITCH_GUIDE.md
+XREAL_DIAGNOSTIC_GUIDE.md
+XREAL_REGRESSION_FIX.md
